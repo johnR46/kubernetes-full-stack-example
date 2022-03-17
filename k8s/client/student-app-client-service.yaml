@@ -2,6 +2,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: student-app-client-service
+  namespace: k8s-full-stack-example
 spec:
   selector:
     app: student-app-client

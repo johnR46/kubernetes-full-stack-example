@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: student-app-client
+  namespace: k8s-full-stack-example
 spec:
   selector:
     matchLabels:
